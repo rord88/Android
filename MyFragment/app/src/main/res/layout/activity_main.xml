@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:name="com.ktds.cain.myfragment.MainFragment"
+    tools:context="com.ktds.cain.myfragment.MainActivity"
+    tools:layout="@layout/fragment_main" />
+<!--해당레이아웃을 Default로 보여주겠다는 의미 -->

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ktds.cain.mydatabase.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btnCreateDatabase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DB Create" />
+        <Button
+            android:id="@+id/btnInsertData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data Create" />
+        <Button
+            android:id="@+id/btnSelectAllDatas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Data List" />
+    </LinearLayout>
+    <!-- 안보이게 정의 invisible-->
+    <ListView
+        android:id="@+id/lvPersons"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

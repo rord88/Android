@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ktds.cain.mytotaloranization.calculator.CalculatorFragment">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etFirst"
+        android:gravity="center"
+        android:hint="NumberOne"
+        android:layout_marginTop="76dp"
+        android:layout_alignParentTop="true"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etSecond"
+        android:gravity="center"
+        android:hint="NumberTwo"
+        android:layout_below="@+id/etFirst"
+        android:layout_alignLeft="@+id/etFirst"
+        android:layout_alignStart="@+id/etFirst"
+        android:layout_alignRight="@+id/etFirst"
+        android:layout_alignEnd="@+id/etFirst" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etResult"
+        android:gravity="center"
+        android:hint="Result"
+        android:layout_below="@+id/etSecond"
+        android:layout_alignLeft="@+id/etSecond"
+        android:layout_alignStart="@+id/etSecond"
+        android:layout_alignRight="@+id/etSecond"
+        android:layout_alignEnd="@+id/etSecond" />
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:id="@+id/btnPlus"
+                android:layout_gravity="center_vertical"
+                android:layout_alignTop="@+id/btnMulti"
+                android:layout_alignLeft="@+id/etResult"
+                android:layout_alignStart="@+id/etResult" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:id="@+id/btnMinus"
+                android:layout_gravity="center_vertical"
+                android:layout_alignTop="@+id/btnDiv"
+                android:layout_toRightOf="@+id/btnDiv"
+                android:layout_toEndOf="@+id/btnDiv" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:id="@+id/btnMulti"
+                android:layout_gravity="center_vertical"
+                android:layout_below="@+id/etResult"
+                android:layout_toRightOf="@+id/btnPlus"
+                android:layout_toEndOf="@+id/btnPlus" />
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:id="@+id/btnDiv"
+                android:layout_below="@+id/etResult"
+                android:layout_toRightOf="@+id/btnMulti"
+                android:layout_toEndOf="@+id/btnMulti"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

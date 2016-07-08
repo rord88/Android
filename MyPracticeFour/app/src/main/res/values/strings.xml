@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyPracticeFour</string>
+
+    <string name="hellow_world">Hello World</string>
+    <string name="action_settings"> Settings </string>
+    <string name="search_title">검색</string>
+    <string name="search_hint">검색어를 입력해주세요.</string>
+    <string name="title_activity_search_result"> SearchResultActivity</string>
+</resources>

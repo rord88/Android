@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.ktds.cain.mybeaconapplication.CouponActivity">
+
+    <TextView
+        android:id="@+id/tvLatestLottoCount"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivNumber1"
+
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/ivNumber2"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/ivNumber3"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/ivNumber4"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/ivNumber5"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/ivNumber6"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:text="+"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/ivNumber7"
+            android:layout_width="40dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvWinCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvWinMoney"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
